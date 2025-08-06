@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+.header-inner {
+  margin: auto;
+  max-width: 1800px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 230px;
+}
+.logo a {
+  padding: 15px 8px 14px 20px;
+}
+.logo img {
+  width: 100%;
+}
+/* 네비 */
+.gnb {
+  width: 1000px;
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  gap: 30px;
+}
+.gnb li {
+  /* width: calc(100% / 6); */
+}
+.gnb a {
+  /* padding: 19px 15px 17px 15px; */
+  display: flex;
+  flex-direction: column;
+}
+.gnb li:last-child a {
+  padding: 0px;
+}
+.gnb img {
+  width: 100%;
+}
+.gnb h3 {
+  font-size: 17px;
+}
+.gnb p {
+  font-size: 12px;
+}
+/*로그인버튼/상품문의링크  */
+.header-r {
+  width: 400px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 30px;
+}
+.header-r a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-r p,
+span {
+  color: rgb(5, 55, 45);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: right;
+}
+#login {
+  line-height: 30px;
+  font-size: 12px;
+  text-align: center;
+  min-width: 106px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(238, 238, 238);
+  border: 0.5px solid #ddd;
+}
